@@ -63,9 +63,10 @@ class AwesomeProject extends Component {
   renderLoadingView() {
     return (
       <View style={styles.container}>
-        <Text>
-          Loading movies...
-        </Text>
+       <Image
+         style={{width: 150, height: 150}}
+         source={{uri: 'https://media.giphy.com/media/o0vwzuFwCGAFO/giphy.gif'}}
+       />
       </View>
     );
   }
