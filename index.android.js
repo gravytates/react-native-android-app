@@ -9,6 +9,7 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
+  Image,
   View
 } from 'react-native';
 
@@ -20,12 +21,20 @@ export default class AwesomeProject extends Component {
           We did it Tanner!
         </Text>
         <Text style={styles.instructions}>
-          To get started, edit index.android.js
+          This is an android app, running on react-native.
         </Text>
         <Text style={styles.instructions}>
-          Double tap R on your keyboard to reload,{'\n'}
-          Shake or press menu button for dev menu
+          Thanks, Facebook!
         </Text>
+        <Image
+          style={{width: 150, height: 150}}
+          source={{uri: 'https://media.giphy.com/media/o0vwzuFwCGAFO/giphy.gif'}}
+        />
+
+        <Image
+          style={{width: 150, height: 150}}
+          source={{uri: 'http://1.bp.blogspot.com/-l1r_ctHKtig/VP-8yjjz38I/AAAAAAAALSE/mIrHOlrZw-U/s1600/Cat.jpg'}}
+        />
       </View>
     );
   }
