@@ -64,7 +64,7 @@ class AwesomeProject extends Component {
     return (
       <View style={styles.container}>
        <Image
-         style={{width: 150, height: 150}}
+         style={{width: 200, height: 200}}
          source={{uri: 'https://media.giphy.com/media/o0vwzuFwCGAFO/giphy.gif'}}
        />
       </View>
